@@ -1,9 +1,11 @@
+import Header from "../components/header/Header";
+import MainView from "../views/MainView"
+
 const Main = props => {
 	return (
 		<>
-			<header>Main Header</header>
-			{props.children}
-			<footer>Main Footer</footer>
+			<Header/>
+			<MainView/>
 		</>
 	);
 };

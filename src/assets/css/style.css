@@ -1,9 +1,99 @@
-header, footer{
+
+.navbar{
+    background-color: #fff;
+    height:70px;
+}
+.header{
+        background-image:url("../img/banner-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+}
+.header .text-1{
+    color:#fff;
+    font-weight: 900;
+    letter-spacing:3px;
+}
+.header .text-2{
+    color:red;
+    margin-top: -20px;
+}
+.header .text-3{
+    color:#fff;
+    font-weight: 400;
+}
+.header .button{
+    font-size: 28px!important;
+    color: #000;
+    background: #4dd1ed!important;
+    font-weight: 600;
+    cursor:pointer;
+    border-radius: 24px;
+    
+}
+.header .icon{
+    color:white;
+}
+
+.header .right-img{
+    margin-top:150px;
+    width: 70%;
+}
+.triangle{
+    background-image:url("../img/redTriangle.png");
     height: 100px;
-    font-size:26px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #212121;
-    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 200% 105%;
+    background-position-x: center;
+    margin-top: -23px; 
+}
+.triangle .triangle-text{
+    text-align: center;
+    color:white;
+    margin-top:10px;
+}
+.triangle .star-bg{
+    background: url("../img/star-bg.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+    z-index: 1;
+    margin-left:40px;
+}
+.triangle .circle{
+    width: 250px;
+    height: 250px;
+    line-height: 1;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: #4dd1ed;
+    margin-top: -35px;
+    position: relative;
+    z-index: 1;
+    margin-left: 100px;
+}
+.triangle .gratis-span{
+    color:rgb(38, 38, 38);
+}
+.triangle .left-col{
+    margin-top:40px;
+    position: relative;
+}
+.triangle .offer{
+
+}
+.triangle .offer-img{
+    position: absolute;
+    z-index: -1;
+     width:70%;
+     margin-left: 250px;
+    margin-top:-370px;
+}
+@media  (max-device-width:458px){
+    .triangle .offer-img{
+    width:40%;
+    margin-left: 220px;
+    }
 }
